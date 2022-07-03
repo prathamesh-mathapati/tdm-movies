@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Poppins&family=Roboto+Slab&display=swap');
+
+.text-p-overview-h{
+    font-family: 'Roboto Slab', serif;
+}
+
+.text-p-overview{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(rgb(57 107 131 / 98%), rgba(0, 0, 0, 0.5));
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+
+.bg-color-nav{
+    background-color:lightslategrey
+}
+
+#sidebar-wrapper .list-group {
+    width: 21rem !important;
+    background: linear-gradient(rgb(57 107 131 / 98%), rgba(0, 0, 0, 0.5));
+}
+
+
+
+.card-width{
+    width: 100%;
+}
+
+.details-background{
+    background-color: hsla(89, 43%, 51%, 0.3)
+}
+
+.img-back{
+    width: 100%;
+    height:100vh;
+    background-size:cover;
+    background-repeat: 'no-repeat';
+    background-position:50% 50%
+    /* opacity: 0.2; */
+    /* margin: auto; */
+    /* width: 50%; */
+    /* height:100vh; */
+    /* margin-top:'-70px'; */
+    /* box-sizing: border-box; */
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
+    /* background-repeat: no-repeat; */
+    /* background-image: linear-gradient(to left,pink,orange); */
+    /* background-image: linear-gradient(black,white); */
+    /* background-size: contain; */
+    /* background-size: 100% 100%; */
+    /* background-position: 50% 50%; */
+    /* object-fit: cover; */
+    /* font-stretch: ; */
+    /* background: linear-gradient(#f67a36,#ed008c); */
+}
+
+.card-redius{
+    border-radius:0.8rem ;
+}
+
+.text-col{
+   color: #a9b5c2;
+}
+
+.text-col-p{
+    color: #1d2124!important;
+ }
+
+ .bg-colore-card{
+ background-color: #8d9499 ;
+ }
+ 
+
+.movie-img-wh{
+    /* opacity: 1; */
+    /* margin-left:1rem ; */
+    width: 100%;
+    height: 365px;
+    border-radius: 0.6rem;
+}
+
+.footer-wh{
+    width: 100%;
+    height: auto;
+}
+
+.scroll{
+    overflow-y: scroll;
+    height: 100vh
+}
+
+
+
+@media (max-width:800px) {
+    .hidden{
+        display: none;
+    }
+    #sidebar-wrapper .list-group {
+        width: 10rem !important;
+    }
+    .scroll{
+        height: 100vh;
+    }
+    
+}
+
+@media (max-width:500px) {
+    .scroll{
+        height: 100vh;
+    }
+}
